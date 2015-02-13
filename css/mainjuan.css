@@ -1,8 +1,3 @@
-html {
-    background-color: #9178ff;
-    color: #fff;
-}
-
 h1, h2, h3 {
   font-family: 'Sigmar One', cursive;
   color: #cc3865;
@@ -18,32 +13,11 @@ header{
 text-align: center;
 }
 
+header {}
 body, header h1, dd {
   margin: 0;
 }
 
-
-nav li {
-  padding: .5em;
-  border-radius: .2em;
-  background-color: #b2a215;
-  display: inline;
-}
-nav a {
-  text-decoration: none;
-  color: white;
-}
-nav li:hover{
-  background-color: #cc3865;
-}
-
-body, header h1, dd {
-  margin: 0;
-}
-nav, main{
-  padding: .5em;
-
-}
 img{
   width: 100%;
 }
@@ -55,7 +29,25 @@ figure{
   text-align: center;
   font-size: .75em;
   line-height:1.5em;
+}
 
+nav li {
+  padding: .5em;
+  border-radius: .2em;
+  background-color: #b2a215;
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav li:hover{
+  background-color: #cc3865;
+}
+
+nav, main{
+  padding: .5em;
 }
 blockquote{
   font-family: georgia, serif;
@@ -73,6 +65,9 @@ blockquote span{
   text-align: center;
 }
 
+.italic {
+  font-style: italic;
+}
 dt{
   font-weight: bold;
 }
@@ -83,12 +78,4 @@ padding: 0.5em;
 }
 a {
     color: #cc3865;
-}
-
-@font-face {
-  font-family: 'Sigmar One';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Sigmar One'), local('SigmarOne'), url(http://fonts.gstatic.com/s/sigmarone/v6/aRAZJs6CY7SV6eSg6Wx4jwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
