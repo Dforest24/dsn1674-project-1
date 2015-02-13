@@ -39,6 +39,19 @@ nav, main{
   padding: .5em;
 
 }
+img{
+  width: 100%;
+}
+figure{
+  background-color: #fffce0;
+  padding: .75em;
+  border-radius: .5em;
+  border: 1px solid #b2a215;
+  text-align: center;
+  font-size: .75em;
+  line-height:1.5em;
+
+}
 blockquote{
   font-family: georgia, serif;
   font-style:italic;
@@ -53,4 +66,16 @@ blockquote span{
   display: block;
   font-size: 2.5rem;
   text-align: center;
+}
+
+dt{
+  font-weight: bold;
+}
+footer {
+    background-color: #ffe524;
+text-align: center;
+padding: 0.5em;
+}
+a {
+    color: #cc3865;
 }
