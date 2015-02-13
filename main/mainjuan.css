@@ -1,0 +1,12 @@
+html {
+display: block;
+}
+
+body, header h1, dd {
+margin: 0;
+}
+
+body {
+display: block;
+margin: 8px;
+}
