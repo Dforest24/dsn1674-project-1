@@ -1,12 +1,18 @@
-html {
-display: block;
+h1, h2, h3 {
+  font-family: 'Sigmar One', cursive;
+  color: #cc3865;
+}
+h2{
+  border-top: 3px solid #ffe524;
+  line-height: 3em;
+  margin-bottom: 0;
+}
+
+header{
+  background-color: #ffe524;
+text-align: center;
 }
 
 body, header h1, dd {
-margin: 0;
-}
-
-body {
-display: block;
-margin: 8px;
+  margin: 0;
 }
