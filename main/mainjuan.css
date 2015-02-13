@@ -16,3 +16,24 @@ text-align: center;
 body, header h1, dd {
   margin: 0;
 }
+
+
+nav li {
+  padding: .5em;
+  border-radius: .2em;
+  background-color: #b2a215;
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav li:hover{
+  background-color: #cc3865;
+}
+
+body, header h1, dd {
+  margin: 0;
+}
+nav, main{
+  padding: .5em;
